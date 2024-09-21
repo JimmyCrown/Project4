@@ -65,5 +65,7 @@
     <RecipeForm :recipeName="recipeName" @update:recipeName="recipeName = $event" @addIngredient="addIngredient" @addDirection="addDirection"/>
 
     <IngredientsList :ingredients="ingredients" @removeIngredient="removeIngredient"/>
+    <DirectionsList :directions="directions" @removeDirection="removeDirection"/>
+  
   </main>
 </template>
