@@ -67,5 +67,6 @@
     <IngredientsList :ingredients="ingredients" @removeIngredient="removeIngredient"/>
     <DirectionsList :directions="directions" @removeDirection="removeDirection"/>
   
+    <RecipeTotals :totalCost="totalCost" :totalCalories="totalCalories" />
   </main>
 </template>
